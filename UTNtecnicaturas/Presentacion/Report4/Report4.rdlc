@@ -41,7 +41,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Legajo</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Montserrat</FontFamily>
+                                <Color>White</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -53,6 +56,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
+                        <BackgroundColor>CornflowerBlue</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -71,7 +75,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Estudiante</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Montserrat</FontFamily>
+                                <Color>White</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -83,6 +90,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
+                        <BackgroundColor>CornflowerBlue</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -101,7 +109,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>DNI</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Montserrat</FontFamily>
+                                <Color>White</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -113,6 +124,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
+                        <BackgroundColor>CornflowerBlue</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -131,7 +143,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Nacionalidad</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Montserrat</FontFamily>
+                                <Color>White</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -143,6 +158,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
+                        <BackgroundColor>CornflowerBlue</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -161,7 +177,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Cantidad Materias Rendidas</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Montserrat</FontFamily>
+                                <Color>White</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -173,6 +192,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
+                        <BackgroundColor>CornflowerBlue</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -191,7 +211,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Promedio</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Montserrat</FontFamily>
+                                <Color>White</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -203,6 +226,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
+                        <BackgroundColor>CornflowerBlue</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -221,7 +245,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Estado Laboral</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Montserrat</FontFamily>
+                                <Color>White</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -233,6 +260,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
+                        <BackgroundColor>CornflowerBlue</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -483,7 +511,7 @@
         </TablixRowHierarchy>
         <DataSetName>DataSet4</DataSetName>
         <Top>1.50495cm</Top>
-        <Left>0.49953cm</Left>
+        <Left>0.81703cm</Left>
         <Height>1.2cm</Height>
         <Width>17.5cm</Width>
         <Style>

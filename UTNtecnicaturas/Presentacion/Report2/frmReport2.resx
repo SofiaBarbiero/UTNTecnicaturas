@@ -117,10 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="textBox1.Text" xml:space="preserve">
-    <value>SE DESEA CONSULTAR DATOS SOBRE LOS ESTUDIANTES QUE RINDIERON EXÁMENES ENTRE LOS AÑOS SELECCIONADOS
- CORRESPONDIENTES A LAS MATERIAS "Programacion I", "Programacion II" Y "Programacion III"  DE LA TECNICATURA "Tecnicatura Universitaria en Programacion",
- QUE OBTUVIERON UN PROMEDIO SUPERIOR AL PROMEDIO GENERAL.
- SE DESEA SABER LA NOTA MAYOR Y LA MENOR OBTENIDA POR DICHOS ESTUDIANTES</value>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Se desea consular datos sobre los estudiantes que rindieron exámenes entre los años seleccionados, correspondientes a las materias "Programacion I", "Programacion II" Y "Programacion III"  de la Tecnicatura Universitaria en Programacion, que obtuvieron un promedio superior al promedio general, se desea saber la nota menor y mayor obtenida por dichos estudiantes.</value>
   </data>
 </root>

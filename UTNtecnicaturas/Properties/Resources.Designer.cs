@@ -222,6 +222,26 @@ namespace UTNtecnicaturas.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2022_10_25_at_9_41_40_PM__1_ {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2022-10-25 at 9.41.40 PM (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2022_10_25_at_9_41_40_PM__2_ {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2022-10-25 at 9.41.40 PM (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap WhatsApp_Image_2022_10_25_at_9_41_40_PM__3_ {
             get {
                 object obj = ResourceManager.GetObject("WhatsApp Image 2022-10-25 at 9.41.40 PM (3)", resourceCulture);

@@ -6,7 +6,7 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>2.5cm</Width>
+              <Width>4.35208cm</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -23,7 +23,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Cantidad Estudiantes</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Montserrat</FontFamily>
+                                <Color>White</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -35,6 +38,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
+                        <BackgroundColor>CornflowerBlue</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -99,9 +103,9 @@
         </TablixRowHierarchy>
         <DataSetName>DataSet6</DataSetName>
         <Top>0.65828cm</Top>
-        <Left>1.84891cm</Left>
+        <Left>5.89704cm</Left>
         <Height>1.2cm</Height>
-        <Width>2.5cm</Width>
+        <Width>4.35208cm</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -109,7 +113,7 @@
         </Style>
       </Tablix>
     </ReportItems>
-    <Height>2in</Height>
+    <Height>1.07292in</Height>
     <Style />
   </Body>
   <Width>6.5in</Width>
