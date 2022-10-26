@@ -1,0 +1,256 @@
+C:\Users\China\Documents\SEGUNDO CUATRIMESTRE\programacion II\UTNtecnicaturas\UTNtecnicaturas\bin\Debug\UTNtecnicaturas.exe.config
+C:\Users\China\Documents\SEGUNDO CUATRIMESTRE\programacion II\UTNtecnicaturas\UTNtecnicaturas\bin\Debug\UTNtecnicaturas.exe
+C:\Users\China\Documents\SEGUNDO CUATRIMESTRE\programacion II\UTNtecnicaturas\UTNtecnicaturas\bin\Debug\UTNtecnicaturas.pdb
+C:\Users\China\Documents\SEGUNDO CUATRIMESTRE\programacion II\UTNtecnicaturas\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.csproj.AssemblyReference.cache
+C:\Users\China\Documents\SEGUNDO CUATRIMESTRE\programacion II\UTNtecnicaturas\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.csproj.SuggestedBindingRedirects.cache
+C:\Users\China\Documents\SEGUNDO CUATRIMESTRE\programacion II\UTNtecnicaturas\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Properties.Resources.resources
+C:\Users\China\Documents\SEGUNDO CUATRIMESTRE\programacion II\UTNtecnicaturas\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.csproj.GenerateResource.cache
+C:\Users\China\Documents\SEGUNDO CUATRIMESTRE\programacion II\UTNtecnicaturas\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.csproj.CoreCompileInputs.cache
+C:\Users\China\Documents\SEGUNDO CUATRIMESTRE\programacion II\UTNtecnicaturas\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.exe
+C:\Users\China\Documents\SEGUNDO CUATRIMESTRE\programacion II\UTNtecnicaturas\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.pdb
+C:\Users\China\Documents\SEGUNDO CUATRIMESTRE\programacion II\UTNtecnicaturas\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.frmLogin.resources
+C:\Users\China\Documents\SEGUNDO CUATRIMESTRE\programacion II\UTNtecnicaturas\UTNtecnicaturas\bin\Debug\Presentacion\UTN.resx
+C:\Users\China\Documents\SEGUNDO CUATRIMESTRE\programacion II\UTNtecnicaturas\UTNtecnicaturas\bin\Debug\Presentacion\UTN.cs
+C:\Users\China\Documents\SEGUNDO CUATRIMESTRE\programacion II\UTNtecnicaturas\UTNtecnicaturas\bin\Debug\Presentacion\UTN.Designer.cs
+C:\Users\China\Documents\SEGUNDO CUATRIMESTRE\programacion II\UTNtecnicaturas\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.Docente.resources
+C:\Users\China\Documents\SEGUNDO CUATRIMESTRE\programacion II\UTNtecnicaturas\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.Estudiante.resources
+C:\Users\China\Documents\SEGUNDO CUATRIMESTRE\programacion II\UTNtecnicaturas\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.MenuEstudiantes.resources
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\UTNtecnicaturas.exe.config
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\UTNtecnicaturas.exe
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\UTNtecnicaturas.pdb
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.csproj.AssemblyReference.cache
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.csproj.SuggestedBindingRedirects.cache
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.frmLogin.resources
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Properties.Resources.resources
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.csproj.GenerateResource.cache
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.csproj.CoreCompileInputs.cache
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.exe
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.pdb
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\Presentacion\frmLogin.resx
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\Presentacion\frmLogin.cs
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\Presentacion\frmLogin.Designer.cs
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.frmDocente.resources
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.frmEstudiante.resources
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.frmMenuEstudiantes.resources
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.frmTecnicatura.resources
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\EnvDTE.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.csproj.CopyComplete
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.Reporte.Report.resources
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.Report2.frmReport2.resources
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.Report3.frmReport3.resources
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.Report4.frmReport4.resources
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.Report5.frmReport5.resources
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.Report6.frmReport6.resources
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.Report7.frmReport7.resources
+C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.Reporte8.frmReport8.resources
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\Presentacion\frmLogin.resx
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\Presentacion\frmLogin.cs
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\Presentacion\frmLogin.Designer.cs
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\UTNtecnicaturas.exe.config
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\UTNtecnicaturas.exe
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\UTNtecnicaturas.pdb
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\EnvDTE.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\stdole.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.csproj.AssemblyReference.cache
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.csproj.SuggestedBindingRedirects.cache
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.FrmAdministrativo.resources
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.frmDocente.resources
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.frmEstudiante.resources
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.frmMenuEstudiantes.resources
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.frmLogin.resources
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.frmTecnicatura.resources
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.Report2.frmReport2.resources
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.Report3.frmReport3.resources
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.Report4.frmReport4.resources
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.Report5.frmReport5.resources
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.Report6.frmReport6.resources
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.Report7.frmReport7.resources
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.Reporte8.frmReport8.resources
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.Reporte.Report.resources
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Properties.Resources.resources
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.csproj.GenerateResource.cache
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.csproj.CoreCompileInputs.cache
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.csproj.CopyComplete
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.exe
+C:\Users\Gabi\Downloads\Tecnica\segundo\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.pdb
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\Presentacion\frmLogin.resx
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\Presentacion\frmLogin.cs
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\Presentacion\frmLogin.Designer.cs
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\UTNtecnicaturas.exe.config
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\UTNtecnicaturas.exe
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\UTNtecnicaturas.pdb
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\EnvDTE.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\stdole.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.csproj.AssemblyReference.cache
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.FrmAdministrativo.resources
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.frmDocente.resources
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.frmEstudiante.resources
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.frmMenuEstudiantes.resources
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.frmLogin.resources
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.frmTecnicatura.resources
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.Report2.frmReport2.resources
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.Report3.frmReport3.resources
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.Report4.frmReport4.resources
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.Report5.frmReport5.resources
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.Report6.frmReport6.resources
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.Report7.frmReport7.resources
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.Reporte8.frmReport8.resources
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Presentacion.Reporte.Report.resources
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.Properties.Resources.resources
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.csproj.GenerateResource.cache
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.csproj.CoreCompileInputs.cache
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.csproj.CopyComplete
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.exe
+C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\obj\Debug\UTNtecnicaturas.pdb

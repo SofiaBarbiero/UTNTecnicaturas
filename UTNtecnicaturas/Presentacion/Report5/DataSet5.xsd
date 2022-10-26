@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet5" targetNamespace="http://tempuri.org/DataSet5.xsd" xmlns:mstns="http://tempuri.org/DataSet5.xsd" xmlns="http://tempuri.org/DataSet5.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection ConnectionStringObject="Data Source=DESKTOP-DBB4CIB\SQLEXPRESS;Initial Catalog=TPI_2ENTREGA;Integrated Security=True" IsAppSettingsProperty="false" Modifier="Assembly" Name="desktop-dbb4cib\sqlexpress.TPI_2ENTREGA.dbo" ParameterPrefix="@" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vi_Torneo_IndustriaTableAdapter" GeneratorDataComponentClassName="vi_Torneo_IndustriaTableAdapter" Name="vi_Torneo_Industria" UserDataComponentName="vi_Torneo_IndustriaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="desktop-dbb4cib\sqlexpress.TPI_2ENTREGA.dbo" DbObjectName="TPI_2ENTREGA.dbo.vi_Torneo_Industria" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        Legajo, Estudiante, Tecnicatura, Promedio
+FROM            vi_Torneo_Industria</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Legajo" DataSetColumn="Legajo" />
+              <Mapping SourceColumn="Estudiante" DataSetColumn="Estudiante" />
+              <Mapping SourceColumn="Tecnicatura" DataSetColumn="Tecnicatura" />
+              <Mapping SourceColumn="Promedio" DataSetColumn="Promedio" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet5" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DataSet5" msprop:Generator_DataSetName="DataSet5">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vi_Torneo_Industria" msprop:Generator_RowEvHandlerName="vi_Torneo_IndustriaRowChangeEventHandler" msprop:Generator_RowDeletedName="vi_Torneo_IndustriaRowDeleted" msprop:Generator_RowDeletingName="vi_Torneo_IndustriaRowDeleting" msprop:Generator_RowEvArgName="vi_Torneo_IndustriaRowChangeEvent" msprop:Generator_TablePropName="vi_Torneo_Industria" msprop:Generator_RowChangedName="vi_Torneo_IndustriaRowChanged" msprop:Generator_RowChangingName="vi_Torneo_IndustriaRowChanging" msprop:Generator_TableClassName="vi_Torneo_IndustriaDataTable" msprop:Generator_RowClassName="vi_Torneo_IndustriaRow" msprop:Generator_TableVarName="tablevi_Torneo_Industria" msprop:Generator_UserTableName="vi_Torneo_Industria">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Legajo" msprop:Generator_ColumnPropNameInRow="Legajo" msprop:Generator_ColumnPropNameInTable="LegajoColumn" msprop:Generator_ColumnVarNameInTable="columnLegajo" msprop:Generator_UserColumnName="Legajo" type="xs:int" />
+              <xs:element name="Estudiante" msprop:Generator_ColumnPropNameInRow="Estudiante" msprop:Generator_ColumnPropNameInTable="EstudianteColumn" msprop:Generator_ColumnVarNameInTable="columnEstudiante" msprop:Generator_UserColumnName="Estudiante" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="101" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tecnicatura" msprop:Generator_ColumnPropNameInRow="Tecnicatura" msprop:Generator_ColumnPropNameInTable="TecnicaturaColumn" msprop:Generator_ColumnVarNameInTable="columnTecnicatura" msprop:Generator_UserColumnName="Tecnicatura">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Promedio" msprop:Generator_ColumnPropNameInRow="Promedio" msprop:Generator_ColumnPropNameInTable="PromedioColumn" msprop:Generator_ColumnVarNameInTable="columnPromedio" msprop:Generator_UserColumnName="Promedio" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:vi_Torneo_Industria" />
+      <xs:field xpath="mstns:Legajo" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

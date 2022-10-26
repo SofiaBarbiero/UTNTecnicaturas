@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet3" targetNamespace="http://tempuri.org/DataSet3.xsd" xmlns:mstns="http://tempuri.org/DataSet3.xsd" xmlns="http://tempuri.org/DataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection ConnectionStringObject="Data Source=DESKTOP-DBB4CIB\SQLEXPRESS;Initial Catalog=TPI_2ENTREGA;Integrated Security=True" IsAppSettingsProperty="false" Modifier="Assembly" Name="desktop-dbb4cib\sqlexpress.TPI_2ENTREGA.dbo" ParameterPrefix="@" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" GeneratorDataComponentClassName="DataTable1TableAdapter" Name="DataTable1" UserDataComponentName="DataTable1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="desktop-dbb4cib\sqlexpress.TPI_2ENTREGA.dbo" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        e.legajo_est AS 'Legajo', e.nom_est + SPACE(1) + e.ape_est AS 'Estudiantes', e.email AS 'Email', e.telefono AS 'Telefono', e.calle + 'Nro ' + trim(STR(e.nro_calle)) + ' Barrio ' + b.barrio AS 'Direccion', e.nro_documento AS 'DNI', 
+                         e.fecha_nac AS 'FechaNacimiento', AVG(exm.calificacion) AS 'Promedio', lab.estado_lab AS 'EstadoLaboral', esta.estado_academico AS 'EstadoAcademico'
+FROM            ESTUDIANTES AS e INNER JOIN
+                         ESTUDIANTES_MATERIAS AS em ON e.legajo_est = em.legajo_est INNER JOIN
+                         MATERIAS AS m ON m.id_materia = em.id_materia INNER JOIN
+                         ESTADOS_ACADEMICOS AS est ON est.id_estado_acad = em.id_estado_acad INNER JOIN
+                         EXAMEN_MATERIAS AS exm ON exm.id_materia = m.id_materia INNER JOIN
+                         CURSOS AS c ON c.id_curso = em.id_curso INNER JOIN
+                         CUATRIMESTRES AS cuatri ON cuatri.id_cuatrimestre = em.id_cuatrimestre INNER JOIN
+                         ESTADOS_ACADEMICOS AS esta ON esta.id_estado_acad = em.id_estado_acad INNER JOIN
+                         ESTADOS_LABORALES AS lab ON lab.id_estado_lab = e.id_estado_lab INNER JOIN
+                         BARRIOS AS b ON b.id_barrio = e.id_barrio INNER JOIN
+                         TECNICATURAS_MATERIAS AS tec ON tec.id_materia = m.id_materia
+WHERE        (tec.id_tecnicatura = 1) AND (e.condicion = 1) AND (em.id_estado_acad = 1) AND (e.id_estado_lab IN (1, 2, 3, 5)) AND (em.id_cuatrimestre NOT IN (1, 2, 7))
+GROUP BY e.legajo_est, e.nom_est + SPACE(1) + e.ape_est, e.email, e.telefono, e.calle + 'Nro ' + trim(STR(e.nro_calle)) + ' Barrio ' + b.barrio, e.nro_documento, e.fecha_nac, lab.estado_lab, esta.estado_academico, e.fecha_ingreso
+HAVING        (AVG(exm.calificacion) &gt;
+                             (SELECT        AVG(calificacion) AS Expr1
+                               FROM            EXAMEN_MATERIAS AS exm
+                               WHERE        (DATEDIFF(year, e.fecha_ingreso, GETDATE()) = 0) AND (e.legajo_est = legajo_est)))
+ORDER BY 'Legajo', 'Estudiantes'</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Legajo" DataSetColumn="Legajo" />
+              <Mapping SourceColumn="Estudiantes" DataSetColumn="Estudiantes" />
+              <Mapping SourceColumn="Email" DataSetColumn="Email" />
+              <Mapping SourceColumn="Telefono" DataSetColumn="Telefono" />
+              <Mapping SourceColumn="Direccion" DataSetColumn="Direccion" />
+              <Mapping SourceColumn="DNI" DataSetColumn="DNI" />
+              <Mapping SourceColumn="FechaNacimiento" DataSetColumn="FechaNacimiento" />
+              <Mapping SourceColumn="Promedio" DataSetColumn="Promedio" />
+              <Mapping SourceColumn="EstadoLaboral" DataSetColumn="EstadoLaboral" />
+              <Mapping SourceColumn="EstadoAcademico" DataSetColumn="EstadoAcademico" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet3" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_UserTableName="DataTable1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Legajo" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInRow="Legajo" msprop:Generator_ColumnPropNameInTable="LegajoColumn" msprop:Generator_ColumnVarNameInTable="columnLegajo" msprop:Generator_UserColumnName="Legajo" type="xs:int" />
+              <xs:element name="Estudiantes" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInRow="Estudiantes" msprop:Generator_ColumnPropNameInTable="EstudiantesColumn" msprop:Generator_ColumnVarNameInTable="columnEstudiantes" msprop:Generator_UserColumnName="Estudiantes" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="101" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Email" msprop:Generator_ColumnPropNameInRow="Email" msprop:Generator_ColumnPropNameInTable="EmailColumn" msprop:Generator_ColumnVarNameInTable="columnEmail" msprop:Generator_UserColumnName="Email" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Telefono" msprop:Generator_ColumnPropNameInRow="Telefono" msprop:Generator_ColumnPropNameInTable="TelefonoColumn" msprop:Generator_ColumnVarNameInTable="columnTelefono" msprop:Generator_UserColumnName="Telefono" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Direccion" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInRow="Direccion" msprop:Generator_ColumnPropNameInTable="DireccionColumn" msprop:Generator_ColumnVarNameInTable="columnDireccion" msprop:Generator_UserColumnName="Direccion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="152" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DNI" msprop:Generator_ColumnPropNameInRow="DNI" msprop:Generator_ColumnPropNameInTable="DNIColumn" msprop:Generator_ColumnVarNameInTable="columnDNI" msprop:Generator_UserColumnName="DNI" type="xs:int" />
+              <xs:element name="FechaNacimiento" msprop:Generator_ColumnPropNameInRow="FechaNacimiento" msprop:Generator_ColumnPropNameInTable="FechaNacimientoColumn" msprop:Generator_ColumnVarNameInTable="columnFechaNacimiento" msprop:Generator_UserColumnName="FechaNacimiento" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Promedio" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInRow="Promedio" msprop:Generator_ColumnPropNameInTable="PromedioColumn" msprop:Generator_ColumnVarNameInTable="columnPromedio" msprop:Generator_UserColumnName="Promedio" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EstadoLaboral" msprop:Generator_ColumnPropNameInRow="EstadoLaboral" msprop:Generator_ColumnPropNameInTable="EstadoLaboralColumn" msprop:Generator_ColumnVarNameInTable="columnEstadoLaboral" msprop:Generator_UserColumnName="EstadoLaboral">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="70" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EstadoAcademico" msprop:Generator_ColumnPropNameInRow="EstadoAcademico" msprop:Generator_ColumnPropNameInTable="EstadoAcademicoColumn" msprop:Generator_ColumnVarNameInTable="columnEstadoAcademico" msprop:Generator_UserColumnName="EstadoAcademico">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable1" />
+      <xs:field xpath="mstns:Legajo" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

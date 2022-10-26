@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet2" targetNamespace="http://tempuri.org/DataSet2.xsd" xmlns:mstns="http://tempuri.org/DataSet2.xsd" xmlns="http://tempuri.org/DataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection ConnectionStringObject="Data Source=DESKTOP-DBB4CIB\SQLEXPRESS;Initial Catalog=TPI_2ENTREGA;Integrated Security=True" IsAppSettingsProperty="false" Modifier="Assembly" Name="desktop-dbb4cib\sqlexpress.TPI_2ENTREGA.dbo" ParameterPrefix="@" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" GeneratorDataComponentClassName="DataTable1TableAdapter" Name="DataTable1" UserDataComponentName="DataTable1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="desktop-dbb4cib\sqlexpress.TPI_2ENTREGA.dbo" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        E.ape_est + ' ' + E.nom_est AS 'Estudiante', STR(AVG(EM1.calificacion), 4, 2) AS 'Calificacion Promedio', MAX(EM1.calificacion) AS 'Nota mayor', MIN(EM1.calificacion) AS 'Nota menor'
+FROM            ESTUDIANTES AS E INNER JOIN
+                         ESTUDIANTES_MATERIAS AS EM ON EM.legajo_est = E.legajo_est INNER JOIN
+                         MATERIAS AS M1 ON M1.id_materia = EM.id_materia INNER JOIN
+                         EXAMEN_MATERIAS AS EM1 ON EM1.id_materia = M1.id_materia INNER JOIN
+                         TECNICATURAS_MATERIAS AS TM ON TM.id_materia = M1.id_materia INNER JOIN
+                         TECNICATURAS AS T ON T.id_tecnicatura = TM.id_tecnicatura INNER JOIN
+                         EXAMENES AS EX ON EX.id_examen = EM1.id_examen
+WHERE        (T.id_tecnicatura = 1) AND (M1.id_materia IN (1, 7, 8)) AND (YEAR(EX.fecha_examen) BETWEEN 2020 AND 2021)
+GROUP BY E.ape_est + ' ' + E.nom_est, E.legajo_est
+HAVING        (AVG(EM1.calificacion) &gt;
+                             (SELECT        AVG(calificacion) AS Expr1
+                               FROM            EXAMEN_MATERIAS AS exm))
+ORDER BY 'Estudiante'</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Estudiante" DataSetColumn="Estudiante" />
+              <Mapping SourceColumn="Calificacion Promedio" DataSetColumn="Calificacion Promedio" />
+              <Mapping SourceColumn="Nota mayor" DataSetColumn="Nota mayor" />
+              <Mapping SourceColumn="Nota menor" DataSetColumn="Nota menor" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DataSet2" msprop:Generator_DataSetName="DataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_UserTableName="DataTable1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Estudiante" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInRow="Estudiante" msprop:Generator_ColumnPropNameInTable="EstudianteColumn" msprop:Generator_ColumnVarNameInTable="columnEstudiante" msprop:Generator_UserColumnName="Estudiante" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="101" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Calificacion_x0020_Promedio" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInRow="Calificacion_Promedio" msprop:Generator_ColumnPropNameInTable="Calificacion_PromedioColumn" msprop:Generator_ColumnVarNameInTable="columnCalificacion_Promedio" msprop:Generator_UserColumnName="Calificacion Promedio" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Nota_x0020_mayor" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInRow="Nota_mayor" msprop:Generator_ColumnPropNameInTable="Nota_mayorColumn" msprop:Generator_ColumnVarNameInTable="columnNota_mayor" msprop:Generator_UserColumnName="Nota mayor" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Nota_x0020_menor" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInRow="Nota_menor" msprop:Generator_ColumnPropNameInTable="Nota_menorColumn" msprop:Generator_ColumnVarNameInTable="columnNota_menor" msprop:Generator_UserColumnName="Nota menor" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

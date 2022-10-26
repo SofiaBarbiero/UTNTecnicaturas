@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet7" targetNamespace="http://tempuri.org/DataSet7.xsd" xmlns:mstns="http://tempuri.org/DataSet7.xsd" xmlns="http://tempuri.org/DataSet7.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection ConnectionStringObject="Data Source=DESKTOP-DBB4CIB\SQLEXPRESS;Initial Catalog=TPI_2ENTREGA;Integrated Security=True" IsAppSettingsProperty="false" Modifier="Assembly" Name="desktop-dbb4cib\sqlexpress.TPI_2ENTREGA.dbo" ParameterPrefix="@" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vis_Docentes_cursosCargoTableAdapter" GeneratorDataComponentClassName="vis_Docentes_cursosCargoTableAdapter" Name="vis_Docentes_cursosCargo" UserDataComponentName="vis_Docentes_cursosCargoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="desktop-dbb4cib\sqlexpress.TPI_2ENTREGA.dbo" DbObjectName="TPI_2ENTREGA.dbo.vis_Docentes_cursosCargo" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        LEGAJOS, Tecnicaturas, TOTALcursos, Nombre, DNI, email, Telefono, FechaNacimmiento
+FROM            vis_Docentes_cursosCargo</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="LEGAJOS" DataSetColumn="LEGAJOS" />
+              <Mapping SourceColumn="Tecnicaturas" DataSetColumn="Tecnicaturas" />
+              <Mapping SourceColumn="TOTALcursos" DataSetColumn="TOTALcursos" />
+              <Mapping SourceColumn="Nombre" DataSetColumn="Nombre" />
+              <Mapping SourceColumn="DNI" DataSetColumn="DNI" />
+              <Mapping SourceColumn="email" DataSetColumn="email" />
+              <Mapping SourceColumn="Telefono" DataSetColumn="Telefono" />
+              <Mapping SourceColumn="FechaNacimmiento" DataSetColumn="FechaNacimmiento" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet7" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DataSet7" msprop:Generator_DataSetName="DataSet7">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vis_Docentes_cursosCargo" msprop:Generator_RowEvHandlerName="vis_Docentes_cursosCargoRowChangeEventHandler" msprop:Generator_RowDeletedName="vis_Docentes_cursosCargoRowDeleted" msprop:Generator_RowDeletingName="vis_Docentes_cursosCargoRowDeleting" msprop:Generator_RowEvArgName="vis_Docentes_cursosCargoRowChangeEvent" msprop:Generator_TablePropName="vis_Docentes_cursosCargo" msprop:Generator_RowChangedName="vis_Docentes_cursosCargoRowChanged" msprop:Generator_RowChangingName="vis_Docentes_cursosCargoRowChanging" msprop:Generator_TableClassName="vis_Docentes_cursosCargoDataTable" msprop:Generator_RowClassName="vis_Docentes_cursosCargoRow" msprop:Generator_TableVarName="tablevis_Docentes_cursosCargo" msprop:Generator_UserTableName="vis_Docentes_cursosCargo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LEGAJOS" msprop:Generator_ColumnPropNameInRow="LEGAJOS" msprop:Generator_ColumnPropNameInTable="LEGAJOSColumn" msprop:Generator_ColumnVarNameInTable="columnLEGAJOS" msprop:Generator_UserColumnName="LEGAJOS" type="xs:int" />
+              <xs:element name="Tecnicaturas" msprop:Generator_ColumnPropNameInRow="Tecnicaturas" msprop:Generator_ColumnPropNameInTable="TecnicaturasColumn" msprop:Generator_ColumnVarNameInTable="columnTecnicaturas" msprop:Generator_UserColumnName="Tecnicaturas">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TOTALcursos" msprop:Generator_ColumnPropNameInRow="TOTALcursos" msprop:Generator_ColumnPropNameInTable="TOTALcursosColumn" msprop:Generator_ColumnVarNameInTable="columnTOTALcursos" msprop:Generator_UserColumnName="TOTALcursos" type="xs:int" minOccurs="0" />
+              <xs:element name="Nombre" msprop:Generator_ColumnPropNameInRow="Nombre" msprop:Generator_ColumnPropNameInTable="NombreColumn" msprop:Generator_ColumnVarNameInTable="columnNombre" msprop:Generator_UserColumnName="Nombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="102" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DNI" msprop:Generator_ColumnPropNameInRow="DNI" msprop:Generator_ColumnPropNameInTable="DNIColumn" msprop:Generator_ColumnVarNameInTable="columnDNI" msprop:Generator_UserColumnName="DNI" type="xs:int" />
+              <xs:element name="email" msprop:Generator_ColumnPropNameInRow="email" msprop:Generator_ColumnPropNameInTable="emailColumn" msprop:Generator_ColumnVarNameInTable="columnemail" msprop:Generator_UserColumnName="email" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Telefono" msprop:Generator_ColumnPropNameInRow="Telefono" msprop:Generator_ColumnPropNameInTable="TelefonoColumn" msprop:Generator_ColumnVarNameInTable="columnTelefono" msprop:Generator_UserColumnName="Telefono" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FechaNacimmiento" msprop:Generator_ColumnPropNameInRow="FechaNacimmiento" msprop:Generator_ColumnPropNameInTable="FechaNacimmientoColumn" msprop:Generator_ColumnVarNameInTable="columnFechaNacimmiento" msprop:Generator_UserColumnName="FechaNacimmiento" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:vis_Docentes_cursosCargo" />
+      <xs:field xpath="mstns:LEGAJOS" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
