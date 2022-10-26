@@ -24,16 +24,16 @@ namespace UTNtecnicaturas.Presentacion
                 this.Close();
         }
 
-        private void programacionToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-             Report consulta1 = new Report();
-            consulta1.ShowDialog();
-            this.Show();
-        }
-
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void datosEstudiantesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Report consulta1 = new Report();
+            consulta1.ShowDialog();
+            this.Show();
         }
     }
 }

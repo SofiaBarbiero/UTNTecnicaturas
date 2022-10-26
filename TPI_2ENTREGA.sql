@@ -4323,8 +4323,6 @@ execute SP_INSERT_ALUMNOS 'Castro','Pedro',1,34563423,'5/05/1989','pepeGon@gmail
 select @legaj legajo
 
 
-
-
 -- disparador insert estudiantes (no corrido)
 create trigger dis_insert_estudiantes
 on estudiantes
@@ -4377,11 +4375,42 @@ as
 select *
 from TIPOS_DOCUMENTOS
 
--- hasta aca ejecutado
+--COMBO TECNICATURAS
+CREATE procedure [dbo].[sp_tecnicatura]
+as
+begin
+select id_tecnicatura,tecnicatura 
+from TECNICATURAS
+end
 
+--COMBO MATERIAS
+CREATE proc [dbo].[sp_carreras_materia]
+@codigo int
+as
+begin
+select ma.id_materia, ma.materia
+from TECNICATURAS_MATERIAS tecma
+inner join MATERIAS ma on ma.id_materia= tecma.id_materia
+where id_tecnicatura=@codigo
+end
 
+--COMBO CUATRIMESTRE
+CREATE procedure [dbo].[sp_cuatrimestre]
+as
+begin
+select*
+from CUATRIMESTRES
+end
 
+--COMBO CURSOS
+CREATE procedure [dbo].[sp_curso]
+as
+begin
+select*
+from CURSOS
+end
 
+--insert tecnicaturas
 create procedure sp_estudiantes_materias
 @id_materia int,
 @legajo_est int,
@@ -4394,8 +4423,7 @@ values(@id_materia,@legajo_est,@id_curso,@id_cuatrimestre)
 end
 
 --reporte 1
-
-drop proc sp_estudiante_datos
+create proc sp_estudiante_datos
 @legajo_est int
 as
 begin 

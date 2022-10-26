@@ -39,16 +39,16 @@
             this.Materia = new System.Windows.Forms.Label();
             this.cboMateria = new System.Windows.Forms.ComboBox();
             this.dgvTecnicatura = new System.Windows.Forms.DataGridView();
-            this.cboCuatrimestre = new System.Windows.Forms.ComboBox();
-            this.cboCurso = new System.Windows.Forms.ComboBox();
-            this.txtTotal = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.idMateria = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colMateria = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colCuatrimestre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colCurso = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colAcciones = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.cboCuatrimestre = new System.Windows.Forms.ComboBox();
+            this.cboCurso = new System.Windows.Forms.ComboBox();
+            this.txtTotal = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTecnicatura)).BeginInit();
             this.SuspendLayout();
@@ -156,6 +156,40 @@
             this.dgvTecnicatura.TabIndex = 10;
             this.dgvTecnicatura.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTecnicatura_CellContentClick);
             // 
+            // idMateria
+            // 
+            this.idMateria.HeaderText = "idMateria";
+            this.idMateria.Name = "idMateria";
+            this.idMateria.ReadOnly = true;
+            this.idMateria.Visible = false;
+            // 
+            // colMateria
+            // 
+            this.colMateria.HeaderText = "Materia";
+            this.colMateria.Name = "colMateria";
+            this.colMateria.ReadOnly = true;
+            this.colMateria.Width = 250;
+            // 
+            // colCuatrimestre
+            // 
+            this.colCuatrimestre.HeaderText = "Cuatrimestre";
+            this.colCuatrimestre.Name = "colCuatrimestre";
+            this.colCuatrimestre.ReadOnly = true;
+            // 
+            // colCurso
+            // 
+            this.colCurso.HeaderText = "Curso";
+            this.colCurso.Name = "colCurso";
+            this.colCurso.ReadOnly = true;
+            // 
+            // colAcciones
+            // 
+            this.colAcciones.HeaderText = "Acciones";
+            this.colAcciones.Name = "colAcciones";
+            this.colAcciones.ReadOnly = true;
+            this.colAcciones.Text = "Eliminar";
+            this.colAcciones.UseColumnTextForButtonValue = true;
+            // 
             // cboCuatrimestre
             // 
             this.cboCuatrimestre.FormattingEnabled = true;
@@ -201,40 +235,6 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // idMateria
-            // 
-            this.idMateria.HeaderText = "idMateria";
-            this.idMateria.Name = "idMateria";
-            this.idMateria.ReadOnly = true;
-            this.idMateria.Visible = false;
-            // 
-            // colMateria
-            // 
-            this.colMateria.HeaderText = "Materia";
-            this.colMateria.Name = "colMateria";
-            this.colMateria.ReadOnly = true;
-            this.colMateria.Width = 250;
-            // 
-            // colCuatrimestre
-            // 
-            this.colCuatrimestre.HeaderText = "Cuatrimestre";
-            this.colCuatrimestre.Name = "colCuatrimestre";
-            this.colCuatrimestre.ReadOnly = true;
-            // 
-            // colCurso
-            // 
-            this.colCurso.HeaderText = "Curso";
-            this.colCurso.Name = "colCurso";
-            this.colCurso.ReadOnly = true;
-            // 
-            // colAcciones
-            // 
-            this.colAcciones.HeaderText = "Acciones";
-            this.colAcciones.Name = "colAcciones";
-            this.colAcciones.ReadOnly = true;
-            this.colAcciones.Text = "Eliminar";
-            this.colAcciones.UseColumnTextForButtonValue = true;
-            // 
             // btnAgregar
             // 
             this.btnAgregar.Location = new System.Drawing.Point(556, 115);
@@ -249,6 +249,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::UTNtecnicaturas.Properties.Resources.WhatsApp_Image_2022_10_26_at_9_01_54_AM;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(674, 398);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.button2);

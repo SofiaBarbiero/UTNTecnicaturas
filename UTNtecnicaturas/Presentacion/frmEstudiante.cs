@@ -144,47 +144,6 @@ namespace UTNtecnicaturas.Presentacion
             cboBarrio.DropDownStyle = ComboBoxStyle.DropDownList;
         }
 
-        private void btnAceptar_Click(object sender, EventArgs e)
-        {
-            nuevoEst.Apellido=txtApellido.Text;
-            nuevoEst.Nombre = txtNombre.Text;
-            nuevoEst.FechaNac = dtpFechaNacimiento.Value;
-            TipoDocumento TipoDocumento = (TipoDocumento)cboTipoDoc.SelectedItem;
-            nuevoEst.TipoDocumento = TipoDocumento;
-            nuevoEst.Documento = Convert.ToInt32(txtDniNumero.Text);
-            Nacionalidad nacionalidad = (Nacionalidad)cboNacionalidad.SelectedItem;
-            nuevoEst.Nacionalidad = nacionalidad;
-            nuevoEst.Calle = txtCalle.Text;
-            nuevoEst.NroCalle = Convert.ToInt32(txtNumeroCalle.Text);
-            Barrio barrio = (Barrio)cboBarrio.SelectedItem;
-            nuevoEst.Barrio = barrio;
-            nuevoEst.Telefono = txtTelefono.Text;
-            nuevoEst.Email = txtEmail.Text;
-            EstadoCivil estado = (EstadoCivil)cboEstadoCivil.SelectedItem;
-            nuevoEst.EstadoCivil = estado;
-            EstadoLaboral estadoLab = (EstadoLaboral)cboEstadoLab.SelectedItem;
-            nuevoEst.EstadoLab = estadoLab;
-            SituacionHabitacional sit = (SituacionHabitacional)cboSitHabit.SelectedItem;
-            nuevoEst.SituacionHab = sit;
-            nuevoEst.FechaIngreso = dtpFechaIngreso.Value;
-
-
-            if (ValidarCampos())
-            {
-                int nroLegajo = gestor.ObtenerLegajoEstudiante(nuevoEst);
-
-            if(nroLegajo != 0)
-                    {                       
-                        MessageBox.Show("Te inscribiste con exito!!! Tu nuevo numero de legajo es: " + nroLegajo, "CONFIRMACION", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                    }
-            else
-                    {
-                        MessageBox.Show("No puede inscribir!!! Intente mas tarde...", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
-                
-            }
-        }
-
         private bool ValidarCampos()
         {
             bool ok = true;
@@ -215,9 +174,50 @@ namespace UTNtecnicaturas.Presentacion
             return ok;
         }
 
-        private void btnSalir_Click(object sender, EventArgs e)
+        private void btnAceptar_Click_1(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Esta seguro que quiere salir???", "CUIDADO", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2)==DialogResult.Yes)
+            nuevoEst.Apellido = txtApellido.Text;
+            nuevoEst.Nombre = txtNombre.Text;
+            nuevoEst.FechaNac = dtpFechaNacimiento.Value;
+            TipoDocumento TipoDocumento = (TipoDocumento)cboTipoDoc.SelectedItem;
+            nuevoEst.TipoDocumento = TipoDocumento;
+            nuevoEst.Documento = Convert.ToInt32(txtDniNumero.Text);
+            Nacionalidad nacionalidad = (Nacionalidad)cboNacionalidad.SelectedItem;
+            nuevoEst.Nacionalidad = nacionalidad;
+            nuevoEst.Calle = txtCalle.Text;
+            nuevoEst.NroCalle = Convert.ToInt32(txtNumeroCalle.Text);
+            Barrio barrio = (Barrio)cboBarrio.SelectedItem;
+            nuevoEst.Barrio = barrio;
+            nuevoEst.Telefono = txtTelefono.Text;
+            nuevoEst.Email = txtEmail.Text;
+            EstadoCivil estado = (EstadoCivil)cboEstadoCivil.SelectedItem;
+            nuevoEst.EstadoCivil = estado;
+            EstadoLaboral estadoLab = (EstadoLaboral)cboEstadoLab.SelectedItem;
+            nuevoEst.EstadoLab = estadoLab;
+            SituacionHabitacional sit = (SituacionHabitacional)cboSitHabit.SelectedItem;
+            nuevoEst.SituacionHab = sit;
+            nuevoEst.FechaIngreso = dtpFechaIngreso.Value;
+
+
+            if (ValidarCampos())
+            {
+                int nroLegajo = gestor.ObtenerLegajoEstudiante(nuevoEst);
+
+                if (nroLegajo != 0)
+                {
+                    MessageBox.Show("Te inscribiste con exito!!! Tu nuevo numero de legajo es: " + nroLegajo, "CONFIRMACION", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
+                else
+                {
+                    MessageBox.Show("No puede inscribir!!! Intente mas tarde...", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+            }
+        }
+
+        private void btnSalir_Click_1(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Esta seguro que quiere salir???", "CUIDADO", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
                 this.Close();
         }
     }
