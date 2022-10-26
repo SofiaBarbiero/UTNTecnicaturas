@@ -425,6 +425,7 @@
     <None Include="Resources\WhatsApp Image 2022-10-25 at 9.41.40 PM.jpeg" />
     <None Include="Resources\WhatsApp Image 2022-10-25 at 9.41.40 PM %281%29.jpeg" />
     <None Include="Resources\WhatsApp Image 2022-10-25 at 9.41.40 PM %282%29.jpeg" />
+    <None Include="Resources\WhatsApp Image 2022-10-26 at 9.01.54 AM.jpeg" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

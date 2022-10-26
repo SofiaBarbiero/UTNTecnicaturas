@@ -248,5 +248,15 @@ namespace UTNtecnicaturas.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2022_10_26_at_9_01_54_AM {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2022-10-26 at 9.01.54 AM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

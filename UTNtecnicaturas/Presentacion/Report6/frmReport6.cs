@@ -29,7 +29,13 @@ namespace UTNtecnicaturas.Presentacion.Report6
 
         }
 
-        private void btnGenerar_Click(object sender, EventArgs e)
+
+        private void dtpDesde_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnGenerar_Click_1(object sender, EventArgs e)
         {
             this.reportViewer1.RefreshReport();
             List<Parametro> lst = new List<Parametro>();
@@ -38,17 +44,11 @@ namespace UTNtecnicaturas.Presentacion.Report6
             DataTable dt = Helper.ObtenerInstancia().CargarConsulta("sp_GobCba_Est_Pandemia", lst);
             reportViewer1.LocalReport.DataSources.Add(new Microsoft.Reporting.WinForms.ReportDataSource("DataSet6", dt));
             this.reportViewer1.RefreshReport();
-
         }
 
-        private void btnSalir_Click(object sender, EventArgs e)
+        private void btnSalir_Click_1(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void dtpDesde_ValueChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -27,7 +27,12 @@ namespace UTNtecnicaturas.Presentacion.Reporte8
 
         }
 
-        private void btnGenerar_Click(object sender, EventArgs e)
+        private void reportViewer1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Consultar_Click(object sender, EventArgs e)
         {
             List<Parametro> lst = new List<Parametro>();
             lst.Add(new Parametro("@materia", nudMaterias.Value));
@@ -37,14 +42,9 @@ namespace UTNtecnicaturas.Presentacion.Reporte8
             this.reportViewer1.RefreshReport();
         }
 
-        private void btnSalir_Click(object sender, EventArgs e)
+        private void btnSALIR_Click_1(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void reportViewer1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

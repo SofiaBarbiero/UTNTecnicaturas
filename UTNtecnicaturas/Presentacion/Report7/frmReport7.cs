@@ -28,25 +28,23 @@ namespace UTNtecnicaturas.Presentacion.Report7
         {
 
         }
-
-        private void btnGenerar_Click(object sender, EventArgs e)
-        {         
-            List<Parametro> lst = new List<Parametro>();
-            lst.Add(new Parametro("@legajo_doc",Convert.ToInt32(txtLegajoDoc.Text)));
-            DataTable dt = Helper.ObtenerInstancia().CargarConsulta("sp_Docentes_cursosCargo",lst);
-            reportViewer1.LocalReport.DataSources.Add(new Microsoft.Reporting.WinForms.ReportDataSource("DataSet7", dt));
-            this.reportViewer1.RefreshReport();
-
-        }
-
-        private void btnSalir_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void Consultar_Click(object sender, EventArgs e)
+        {
+            List<Parametro> lst = new List<Parametro>();
+            lst.Add(new Parametro("@legajo_doc", Convert.ToInt32(txtLegajoDoc.Text)));
+            DataTable dt = Helper.ObtenerInstancia().CargarConsulta("sp_Docentes_cursosCargo", lst);
+            reportViewer1.LocalReport.DataSources.Add(new Microsoft.Reporting.WinForms.ReportDataSource("DataSet7", dt));
+            this.reportViewer1.RefreshReport();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

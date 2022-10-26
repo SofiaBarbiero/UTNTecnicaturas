@@ -118,10 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="textBox1.Text" xml:space="preserve">
-    <value>-- El gobierno de la provincia de Cordoba necesita para fines 
--- estadisticos conocer: la cantidad total de Estudiantes de las tecnicaturas de la UTN,
--- que comenzaron a estudiar durante la PANDEMIA, Con una edad superior a 30 años,
--- que su situacion laboral sea asalariado o desempleado   
--- y que ademas nunca fueron aplazados.-</value>
+    <value>El gobierno de la provincia de Córdoba necesita para fines estadisticos conocer: la cantidad total de Estudiantes de las tecnicaturas de la UTN, que comenzaron a estudiar durante la PANDEMIA, con una edad superior a 30 años,
+que su situacion laboral sea asalariado o desempleado  y que ademas nunca fueron aplazados.-</value>
   </data>
 </root>

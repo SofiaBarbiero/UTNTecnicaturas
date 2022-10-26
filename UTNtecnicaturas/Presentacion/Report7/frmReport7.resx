@@ -118,8 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="textBox1.Text" xml:space="preserve">
-    <value>-- La UTN necesita tener registros de los docentes de la tecnicaturas en telecomunicaciones, Industria alimentaria y mecatronica
--- indicando la cantidad de cursos que tiene a cargo cada uno,los datos personales de cada docente (con email conocido) y sean de la generacion del 60,
--- siempre que la cantidad de cursos en donde trabaje sea superior a 2</value>
+    <value>La UTN necesita tener registros de los docentes de la tecnicaturas en telecomunicaciones, Industria alimentaria y mecatronica indicando la cantidad de cursos que tiene a cargo cada uno, los datos personales de cada docente (con email conocido) y sean de la generacion del 60, siempre que la cantidad de cursos en donde trabaje sea superior a 2</value>
   </data>
 </root>

@@ -118,9 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="textBox1.Text" xml:space="preserve">
-    <value>-- Se desea obtener un listado de docentes que tengan a cargo X materias
--- y que el promedio de examenes tomados por cada profesor en los ultimos 
--- X años sea superior al promedio de examenes de la facultad.
--- Mostrar la calificación promedio de los exámenes tomados por cada profesor según la Tecnicatura </value>
+    <value>Se desea obtener un listado de docentes que tengan a cargo X materias y que el promedio de examenes tomados por cada profesor en los ultimos X años sea superior al promedio de examenes de la facultad. Mostrar la calificación promedio de los exámenes tomados por cada profesor según la Tecnicatura </value>
   </data>
 </root>
