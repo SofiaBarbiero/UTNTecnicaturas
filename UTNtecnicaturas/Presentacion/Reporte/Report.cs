@@ -21,11 +21,6 @@ namespace UTNtecnicaturas.Presentacion.Reporte
         private void Report_Load(object sender, EventArgs e)
         {
 
-            this.reportViewer1.RefreshReport();
-            Helper oHelper = new Helper();
-            DataTable dt = oHelper.CargarCombo("sp_estudiante");
-            reportViewer1.LocalReport.DataSources.Add(new Microsoft.Reporting.WinForms.ReportDataSource("DataSet1",dt));
-            this.reportViewer1.RefreshReport();
         }
 
         private void reportViewer1_Load(object sender, EventArgs e)
@@ -36,6 +31,20 @@ namespace UTNtecnicaturas.Presentacion.Reporte
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void Consultar_Click(object sender, EventArgs e)
+        {
+            List<Parametro> lst = new List<Parametro>();
+            lst.Add(new Parametro("@legajo_est", Convert.ToInt32(txtLegajoEst.Text)));
+            DataTable dt = Helper.ObtenerInstancia().CargarConsulta("sp_estudiante_datos", lst);
+            reportViewer1.LocalReport.DataSources.Add(new Microsoft.Reporting.WinForms.ReportDataSource("DataSet1", dt));
+            this.reportViewer1.RefreshReport();
+        }
+
+        private void btnSALIR_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

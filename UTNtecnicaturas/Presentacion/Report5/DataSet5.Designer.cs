@@ -24,7 +24,7 @@ namespace UTNtecnicaturas.Presentacion.Report5 {
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
     public partial class DataSet5 : global::System.Data.DataSet {
         
-        private vi_Torneo_IndustriaDataTable tablevi_Torneo_Industria;
+        private sp_Torneo_IndustriaDataTable tablesp_Torneo_Industria;
         
         private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
         
@@ -54,8 +54,8 @@ namespace UTNtecnicaturas.Presentacion.Report5 {
             if ((this.DetermineSchemaSerializationMode(info, context) == global::System.Data.SchemaSerializationMode.IncludeSchema)) {
                 global::System.Data.DataSet ds = new global::System.Data.DataSet();
                 ds.ReadXmlSchema(new global::System.Xml.XmlTextReader(new global::System.IO.StringReader(strSchema)));
-                if ((ds.Tables["vi_Torneo_Industria"] != null)) {
-                    base.Tables.Add(new vi_Torneo_IndustriaDataTable(ds.Tables["vi_Torneo_Industria"]));
+                if ((ds.Tables["sp_Torneo_Industria"] != null)) {
+                    base.Tables.Add(new sp_Torneo_IndustriaDataTable(ds.Tables["sp_Torneo_Industria"]));
                 }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
@@ -79,9 +79,9 @@ namespace UTNtecnicaturas.Presentacion.Report5 {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Browsable(false)]
         [global::System.ComponentModel.DesignerSerializationVisibility(global::System.ComponentModel.DesignerSerializationVisibility.Content)]
-        public vi_Torneo_IndustriaDataTable vi_Torneo_Industria {
+        public sp_Torneo_IndustriaDataTable sp_Torneo_Industria {
             get {
-                return this.tablevi_Torneo_Industria;
+                return this.tablesp_Torneo_Industria;
             }
         }
         
@@ -152,8 +152,8 @@ namespace UTNtecnicaturas.Presentacion.Report5 {
                 this.Reset();
                 global::System.Data.DataSet ds = new global::System.Data.DataSet();
                 ds.ReadXml(reader);
-                if ((ds.Tables["vi_Torneo_Industria"] != null)) {
-                    base.Tables.Add(new vi_Torneo_IndustriaDataTable(ds.Tables["vi_Torneo_Industria"]));
+                if ((ds.Tables["sp_Torneo_Industria"] != null)) {
+                    base.Tables.Add(new sp_Torneo_IndustriaDataTable(ds.Tables["sp_Torneo_Industria"]));
                 }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
@@ -188,10 +188,10 @@ namespace UTNtecnicaturas.Presentacion.Report5 {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         internal void InitVars(bool initTable) {
-            this.tablevi_Torneo_Industria = ((vi_Torneo_IndustriaDataTable)(base.Tables["vi_Torneo_Industria"]));
+            this.tablesp_Torneo_Industria = ((sp_Torneo_IndustriaDataTable)(base.Tables["sp_Torneo_Industria"]));
             if ((initTable == true)) {
-                if ((this.tablevi_Torneo_Industria != null)) {
-                    this.tablevi_Torneo_Industria.InitVars();
+                if ((this.tablesp_Torneo_Industria != null)) {
+                    this.tablesp_Torneo_Industria.InitVars();
                 }
             }
         }
@@ -204,13 +204,13 @@ namespace UTNtecnicaturas.Presentacion.Report5 {
             this.Namespace = "http://tempuri.org/DataSet5.xsd";
             this.EnforceConstraints = true;
             this.SchemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
-            this.tablevi_Torneo_Industria = new vi_Torneo_IndustriaDataTable();
-            base.Tables.Add(this.tablevi_Torneo_Industria);
+            this.tablesp_Torneo_Industria = new sp_Torneo_IndustriaDataTable();
+            base.Tables.Add(this.tablesp_Torneo_Industria);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private bool ShouldSerializevi_Torneo_Industria() {
+        private bool ShouldSerializesp_Torneo_Industria() {
             return false;
         }
         
@@ -270,14 +270,14 @@ namespace UTNtecnicaturas.Presentacion.Report5 {
         }
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public delegate void vi_Torneo_IndustriaRowChangeEventHandler(object sender, vi_Torneo_IndustriaRowChangeEvent e);
+        public delegate void sp_Torneo_IndustriaRowChangeEventHandler(object sender, sp_Torneo_IndustriaRowChangeEvent e);
         
         /// <summary>
         ///Represents the strongly named DataTable class.
         ///</summary>
         [global::System.Serializable()]
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
-        public partial class vi_Torneo_IndustriaDataTable : global::System.Data.TypedTableBase<vi_Torneo_IndustriaRow> {
+        public partial class sp_Torneo_IndustriaDataTable : global::System.Data.TypedTableBase<sp_Torneo_IndustriaRow> {
             
             private global::System.Data.DataColumn columnLegajo;
             
@@ -289,8 +289,8 @@ namespace UTNtecnicaturas.Presentacion.Report5 {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public vi_Torneo_IndustriaDataTable() {
-                this.TableName = "vi_Torneo_Industria";
+            public sp_Torneo_IndustriaDataTable() {
+                this.TableName = "sp_Torneo_Industria";
                 this.BeginInit();
                 this.InitClass();
                 this.EndInit();
@@ -298,7 +298,7 @@ namespace UTNtecnicaturas.Presentacion.Report5 {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            internal vi_Torneo_IndustriaDataTable(global::System.Data.DataTable table) {
+            internal sp_Torneo_IndustriaDataTable(global::System.Data.DataTable table) {
                 this.TableName = table.TableName;
                 if ((table.CaseSensitive != table.DataSet.CaseSensitive)) {
                     this.CaseSensitive = table.CaseSensitive;
@@ -315,7 +315,7 @@ namespace UTNtecnicaturas.Presentacion.Report5 {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            protected vi_Torneo_IndustriaDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+            protected sp_Torneo_IndustriaDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                     base(info, context) {
                 this.InitVars();
             }
@@ -363,55 +363,55 @@ namespace UTNtecnicaturas.Presentacion.Report5 {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public vi_Torneo_IndustriaRow this[int index] {
+            public sp_Torneo_IndustriaRow this[int index] {
                 get {
-                    return ((vi_Torneo_IndustriaRow)(this.Rows[index]));
+                    return ((sp_Torneo_IndustriaRow)(this.Rows[index]));
                 }
             }
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public event vi_Torneo_IndustriaRowChangeEventHandler vi_Torneo_IndustriaRowChanging;
+            public event sp_Torneo_IndustriaRowChangeEventHandler sp_Torneo_IndustriaRowChanging;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public event vi_Torneo_IndustriaRowChangeEventHandler vi_Torneo_IndustriaRowChanged;
+            public event sp_Torneo_IndustriaRowChangeEventHandler sp_Torneo_IndustriaRowChanged;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public event vi_Torneo_IndustriaRowChangeEventHandler vi_Torneo_IndustriaRowDeleting;
+            public event sp_Torneo_IndustriaRowChangeEventHandler sp_Torneo_IndustriaRowDeleting;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public event vi_Torneo_IndustriaRowChangeEventHandler vi_Torneo_IndustriaRowDeleted;
+            public event sp_Torneo_IndustriaRowChangeEventHandler sp_Torneo_IndustriaRowDeleted;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public void Addvi_Torneo_IndustriaRow(vi_Torneo_IndustriaRow row) {
+            public void Addsp_Torneo_IndustriaRow(sp_Torneo_IndustriaRow row) {
                 this.Rows.Add(row);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public vi_Torneo_IndustriaRow Addvi_Torneo_IndustriaRow(int Legajo, string Estudiante, string Tecnicatura, decimal Promedio) {
-                vi_Torneo_IndustriaRow rowvi_Torneo_IndustriaRow = ((vi_Torneo_IndustriaRow)(this.NewRow()));
+            public sp_Torneo_IndustriaRow Addsp_Torneo_IndustriaRow(string Estudiante, string Tecnicatura, decimal Promedio) {
+                sp_Torneo_IndustriaRow rowsp_Torneo_IndustriaRow = ((sp_Torneo_IndustriaRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
-                        Legajo,
+                        null,
                         Estudiante,
                         Tecnicatura,
                         Promedio};
-                rowvi_Torneo_IndustriaRow.ItemArray = columnValuesArray;
-                this.Rows.Add(rowvi_Torneo_IndustriaRow);
-                return rowvi_Torneo_IndustriaRow;
+                rowsp_Torneo_IndustriaRow.ItemArray = columnValuesArray;
+                this.Rows.Add(rowsp_Torneo_IndustriaRow);
+                return rowsp_Torneo_IndustriaRow;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public vi_Torneo_IndustriaRow FindByLegajo(int Legajo) {
-                return ((vi_Torneo_IndustriaRow)(this.Rows.Find(new object[] {
+            public sp_Torneo_IndustriaRow FindByLegajo(int Legajo) {
+                return ((sp_Torneo_IndustriaRow)(this.Rows.Find(new object[] {
                             Legajo})));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public override global::System.Data.DataTable Clone() {
-                vi_Torneo_IndustriaDataTable cln = ((vi_Torneo_IndustriaDataTable)(base.Clone()));
+                sp_Torneo_IndustriaDataTable cln = ((sp_Torneo_IndustriaDataTable)(base.Clone()));
                 cln.InitVars();
                 return cln;
             }
@@ -419,7 +419,7 @@ namespace UTNtecnicaturas.Presentacion.Report5 {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Data.DataTable CreateInstance() {
-                return new vi_Torneo_IndustriaDataTable();
+                return new sp_Torneo_IndustriaDataTable();
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -444,37 +444,43 @@ namespace UTNtecnicaturas.Presentacion.Report5 {
                 base.Columns.Add(this.columnPromedio);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnLegajo}, true));
+                this.columnLegajo.AutoIncrement = true;
+                this.columnLegajo.AutoIncrementSeed = -1;
+                this.columnLegajo.AutoIncrementStep = -1;
                 this.columnLegajo.AllowDBNull = false;
+                this.columnLegajo.ReadOnly = true;
                 this.columnLegajo.Unique = true;
+                this.columnEstudiante.ReadOnly = true;
                 this.columnEstudiante.MaxLength = 101;
                 this.columnTecnicatura.AllowDBNull = false;
                 this.columnTecnicatura.MaxLength = 150;
+                this.columnPromedio.ReadOnly = true;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public vi_Torneo_IndustriaRow Newvi_Torneo_IndustriaRow() {
-                return ((vi_Torneo_IndustriaRow)(this.NewRow()));
+            public sp_Torneo_IndustriaRow Newsp_Torneo_IndustriaRow() {
+                return ((sp_Torneo_IndustriaRow)(this.NewRow()));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
-                return new vi_Torneo_IndustriaRow(builder);
+                return new sp_Torneo_IndustriaRow(builder);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override global::System.Type GetRowType() {
-                return typeof(vi_Torneo_IndustriaRow);
+                return typeof(sp_Torneo_IndustriaRow);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowChanged(e);
-                if ((this.vi_Torneo_IndustriaRowChanged != null)) {
-                    this.vi_Torneo_IndustriaRowChanged(this, new vi_Torneo_IndustriaRowChangeEvent(((vi_Torneo_IndustriaRow)(e.Row)), e.Action));
+                if ((this.sp_Torneo_IndustriaRowChanged != null)) {
+                    this.sp_Torneo_IndustriaRowChanged(this, new sp_Torneo_IndustriaRowChangeEvent(((sp_Torneo_IndustriaRow)(e.Row)), e.Action));
                 }
             }
             
@@ -482,8 +488,8 @@ namespace UTNtecnicaturas.Presentacion.Report5 {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowChanging(e);
-                if ((this.vi_Torneo_IndustriaRowChanging != null)) {
-                    this.vi_Torneo_IndustriaRowChanging(this, new vi_Torneo_IndustriaRowChangeEvent(((vi_Torneo_IndustriaRow)(e.Row)), e.Action));
+                if ((this.sp_Torneo_IndustriaRowChanging != null)) {
+                    this.sp_Torneo_IndustriaRowChanging(this, new sp_Torneo_IndustriaRowChangeEvent(((sp_Torneo_IndustriaRow)(e.Row)), e.Action));
                 }
             }
             
@@ -491,8 +497,8 @@ namespace UTNtecnicaturas.Presentacion.Report5 {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowDeleted(e);
-                if ((this.vi_Torneo_IndustriaRowDeleted != null)) {
-                    this.vi_Torneo_IndustriaRowDeleted(this, new vi_Torneo_IndustriaRowChangeEvent(((vi_Torneo_IndustriaRow)(e.Row)), e.Action));
+                if ((this.sp_Torneo_IndustriaRowDeleted != null)) {
+                    this.sp_Torneo_IndustriaRowDeleted(this, new sp_Torneo_IndustriaRowChangeEvent(((sp_Torneo_IndustriaRow)(e.Row)), e.Action));
                 }
             }
             
@@ -500,14 +506,14 @@ namespace UTNtecnicaturas.Presentacion.Report5 {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowDeleting(e);
-                if ((this.vi_Torneo_IndustriaRowDeleting != null)) {
-                    this.vi_Torneo_IndustriaRowDeleting(this, new vi_Torneo_IndustriaRowChangeEvent(((vi_Torneo_IndustriaRow)(e.Row)), e.Action));
+                if ((this.sp_Torneo_IndustriaRowDeleting != null)) {
+                    this.sp_Torneo_IndustriaRowDeleting(this, new sp_Torneo_IndustriaRowChangeEvent(((sp_Torneo_IndustriaRow)(e.Row)), e.Action));
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public void Removevi_Torneo_IndustriaRow(vi_Torneo_IndustriaRow row) {
+            public void Removesp_Torneo_IndustriaRow(sp_Torneo_IndustriaRow row) {
                 this.Rows.Remove(row);
             }
             
@@ -534,7 +540,7 @@ namespace UTNtecnicaturas.Presentacion.Report5 {
                 type.Attributes.Add(attribute1);
                 global::System.Xml.Schema.XmlSchemaAttribute attribute2 = new global::System.Xml.Schema.XmlSchemaAttribute();
                 attribute2.Name = "tableTypeName";
-                attribute2.FixedValue = "vi_Torneo_IndustriaDataTable";
+                attribute2.FixedValue = "sp_Torneo_IndustriaDataTable";
                 type.Attributes.Add(attribute2);
                 type.Particle = sequence;
                 global::System.Xml.Schema.XmlSchema dsSchema = ds.GetSchemaSerializable();
@@ -578,25 +584,25 @@ namespace UTNtecnicaturas.Presentacion.Report5 {
         /// <summary>
         ///Represents strongly named DataRow class.
         ///</summary>
-        public partial class vi_Torneo_IndustriaRow : global::System.Data.DataRow {
+        public partial class sp_Torneo_IndustriaRow : global::System.Data.DataRow {
             
-            private vi_Torneo_IndustriaDataTable tablevi_Torneo_Industria;
+            private sp_Torneo_IndustriaDataTable tablesp_Torneo_Industria;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            internal vi_Torneo_IndustriaRow(global::System.Data.DataRowBuilder rb) : 
+            internal sp_Torneo_IndustriaRow(global::System.Data.DataRowBuilder rb) : 
                     base(rb) {
-                this.tablevi_Torneo_Industria = ((vi_Torneo_IndustriaDataTable)(this.Table));
+                this.tablesp_Torneo_Industria = ((sp_Torneo_IndustriaDataTable)(this.Table));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public int Legajo {
                 get {
-                    return ((int)(this[this.tablevi_Torneo_Industria.LegajoColumn]));
+                    return ((int)(this[this.tablesp_Torneo_Industria.LegajoColumn]));
                 }
                 set {
-                    this[this.tablevi_Torneo_Industria.LegajoColumn] = value;
+                    this[this.tablesp_Torneo_Industria.LegajoColumn] = value;
                 }
             }
             
@@ -605,14 +611,14 @@ namespace UTNtecnicaturas.Presentacion.Report5 {
             public string Estudiante {
                 get {
                     try {
-                        return ((string)(this[this.tablevi_Torneo_Industria.EstudianteColumn]));
+                        return ((string)(this[this.tablesp_Torneo_Industria.EstudianteColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("El valor de la columna \'Estudiante\' de la tabla \'vi_Torneo_Industria\' es DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("El valor de la columna \'Estudiante\' de la tabla \'sp_Torneo_Industria\' es DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tablevi_Torneo_Industria.EstudianteColumn] = value;
+                    this[this.tablesp_Torneo_Industria.EstudianteColumn] = value;
                 }
             }
             
@@ -620,10 +626,10 @@ namespace UTNtecnicaturas.Presentacion.Report5 {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string Tecnicatura {
                 get {
-                    return ((string)(this[this.tablevi_Torneo_Industria.TecnicaturaColumn]));
+                    return ((string)(this[this.tablesp_Torneo_Industria.TecnicaturaColumn]));
                 }
                 set {
-                    this[this.tablevi_Torneo_Industria.TecnicaturaColumn] = value;
+                    this[this.tablesp_Torneo_Industria.TecnicaturaColumn] = value;
                 }
             }
             
@@ -632,39 +638,39 @@ namespace UTNtecnicaturas.Presentacion.Report5 {
             public decimal Promedio {
                 get {
                     try {
-                        return ((decimal)(this[this.tablevi_Torneo_Industria.PromedioColumn]));
+                        return ((decimal)(this[this.tablesp_Torneo_Industria.PromedioColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("El valor de la columna \'Promedio\' de la tabla \'vi_Torneo_Industria\' es DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("El valor de la columna \'Promedio\' de la tabla \'sp_Torneo_Industria\' es DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tablevi_Torneo_Industria.PromedioColumn] = value;
+                    this[this.tablesp_Torneo_Industria.PromedioColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsEstudianteNull() {
-                return this.IsNull(this.tablevi_Torneo_Industria.EstudianteColumn);
+                return this.IsNull(this.tablesp_Torneo_Industria.EstudianteColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetEstudianteNull() {
-                this[this.tablevi_Torneo_Industria.EstudianteColumn] = global::System.Convert.DBNull;
+                this[this.tablesp_Torneo_Industria.EstudianteColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public bool IsPromedioNull() {
-                return this.IsNull(this.tablevi_Torneo_Industria.PromedioColumn);
+                return this.IsNull(this.tablesp_Torneo_Industria.PromedioColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public void SetPromedioNull() {
-                this[this.tablevi_Torneo_Industria.PromedioColumn] = global::System.Convert.DBNull;
+                this[this.tablesp_Torneo_Industria.PromedioColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -672,22 +678,22 @@ namespace UTNtecnicaturas.Presentacion.Report5 {
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public class vi_Torneo_IndustriaRowChangeEvent : global::System.EventArgs {
+        public class sp_Torneo_IndustriaRowChangeEvent : global::System.EventArgs {
             
-            private vi_Torneo_IndustriaRow eventRow;
+            private sp_Torneo_IndustriaRow eventRow;
             
             private global::System.Data.DataRowAction eventAction;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public vi_Torneo_IndustriaRowChangeEvent(vi_Torneo_IndustriaRow row, global::System.Data.DataRowAction action) {
+            public sp_Torneo_IndustriaRowChangeEvent(sp_Torneo_IndustriaRow row, global::System.Data.DataRowAction action) {
                 this.eventRow = row;
                 this.eventAction = action;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public vi_Torneo_IndustriaRow Row {
+            public sp_Torneo_IndustriaRow Row {
                 get {
                     return this.eventRow;
                 }
@@ -715,7 +721,7 @@ namespace UTNtecnicaturas.Presentacion.Report5.DataSet5TableAdapters {
     [global::System.ComponentModel.DesignerAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterDesigner, Microsoft.VSDesigner" +
         ", Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-    public partial class vi_Torneo_IndustriaTableAdapter : global::System.ComponentModel.Component {
+    public partial class sp_Torneo_IndustriaTableAdapter : global::System.ComponentModel.Component {
         
         private global::System.Data.SqlClient.SqlDataAdapter _adapter;
         
@@ -729,7 +735,7 @@ namespace UTNtecnicaturas.Presentacion.Report5.DataSet5TableAdapters {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public vi_Torneo_IndustriaTableAdapter() {
+        public sp_Torneo_IndustriaTableAdapter() {
             this.ClearBeforeFill = true;
         }
         
@@ -826,7 +832,7 @@ namespace UTNtecnicaturas.Presentacion.Report5.DataSet5TableAdapters {
             this._adapter = new global::System.Data.SqlClient.SqlDataAdapter();
             global::System.Data.Common.DataTableMapping tableMapping = new global::System.Data.Common.DataTableMapping();
             tableMapping.SourceTable = "Table";
-            tableMapping.DataSetTable = "vi_Torneo_Industria";
+            tableMapping.DataSetTable = "sp_Torneo_Industria";
             tableMapping.ColumnMappings.Add("Legajo", "Legajo");
             tableMapping.ColumnMappings.Add("Estudiante", "Estudiante");
             tableMapping.ColumnMappings.Add("Tecnicatura", "Tecnicatura");
@@ -838,8 +844,7 @@ namespace UTNtecnicaturas.Presentacion.Report5.DataSet5TableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = "Data Source=DESKTOP-DBB4CIB\\SQLEXPRESS;Initial Catalog=TPI_2ENTREGA;Integrated Se" +
-                "curity=True";
+            this._connection.ConnectionString = global::UTNtecnicaturas.Properties.Settings.Default.TPI_2ENTREGAConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -848,17 +853,24 @@ namespace UTNtecnicaturas.Presentacion.Report5.DataSet5TableAdapters {
             this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = "SELECT        Legajo, Estudiante, Tecnicatura, Promedio\r\nFROM            vi_Torne" +
-                "o_Industria";
-            this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[0].CommandText = "dbo.sp_Torneo_Industria";
+            this._commandCollection[0].CommandType = global::System.Data.CommandType.StoredProcedure;
+            this._commandCollection[0].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._commandCollection[0].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@promedio", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DataSet5.vi_Torneo_IndustriaDataTable dataTable) {
+        public virtual int Fill(DataSet5.sp_Torneo_IndustriaDataTable dataTable, global::System.Nullable<int> promedio) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
+            if ((promedio.HasValue == true)) {
+                this.Adapter.SelectCommand.Parameters[1].Value = ((int)(promedio.Value));
+            }
+            else {
+                this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
+            }
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
             }
@@ -870,9 +882,15 @@ namespace UTNtecnicaturas.Presentacion.Report5.DataSet5TableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DataSet5.vi_Torneo_IndustriaDataTable GetData() {
+        public virtual DataSet5.sp_Torneo_IndustriaDataTable GetData(global::System.Nullable<int> promedio) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DataSet5.vi_Torneo_IndustriaDataTable dataTable = new DataSet5.vi_Torneo_IndustriaDataTable();
+            if ((promedio.HasValue == true)) {
+                this.Adapter.SelectCommand.Parameters[1].Value = ((int)(promedio.Value));
+            }
+            else {
+                this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
+            }
+            DataSet5.sp_Torneo_IndustriaDataTable dataTable = new DataSet5.sp_Torneo_IndustriaDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }

@@ -4395,11 +4395,24 @@ end
 
 --reporte 1
 
-create proc sp_estudiante
+drop proc sp_estudiante_datos
+@legajo_est int
 as
 begin 
-select legajo_est,ape_est,nom_est
-from ESTUDIANTES
+select  est.legajo_est 'Legajo',ape_est + ', ' + nom_est 'Nombre', 
+		nro_documento 'Documento', fecha_nac 'FechaNacimiento',
+		email 'Email',telefono 'Telefono', nac.nacion 'Nacionalidad',
+		est.calle + 'Nro ' + trim(str(est.nro_calle)) +' Barrio '+ b.barrio 'Direccion',
+		fecha_ingreso 'FechaIngreso',sitHa.situacion_habit 'SituacionHabitacional',
+		estCi.estado_civil 'EstadoCivil', estaLab.estado_lab 'EstadoLaboral'    	
+from ESTUDIANTES est 
+	  join nacionalidades nac on nac.id_nacionalidad=est.id_nacionalidad
+      join barrios b on b.id_barrio= est.id_barrio
+	  join SITUACION_HABIT sitHa on sitHa.id_situacion_habit=est.id_situacion_habit
+	  join ESTADOS_CIVILES estCi on estCi.id_estado_civil=est.id_estado_civil
+	  join ESTADOS_LABORALES estaLab on estaLab.id_estado_lab=est.id_estado_lab
+ 
+where est.legajo_est = @legajo_est     
 end
 
 --reporte 2
@@ -4521,15 +4534,16 @@ end
 --reporte 5
 
 --Para un torneo de Industria se quiere sacar un listado de los estudiantes promocionados
---de la Tecnicatura Universitaria en Industrias Alimentarias con un promedio mayor o igual a 9,
+--de la Tecnicatura Universitaria en Industrias Alimentarias con un promedio mayor o igual AL NUMERO PASADO POR PARAMETRO
 --pero que ademas todas sus notas sean superior a 7.
 --Por último, que hayan rendido examen en los ultimos dos años y que no tengan
 --trabajo actualmente (para tener disponibilidad de viajar)
 
-
-create view vi_Torneo_Industria
+create procedure sp_Torneo_Industria
+@promedio int
 as
-select e.legajo_est 'Legajo', nom_est+SPACE(1)+ape_est 'Estudiante', t.tecnicatura 'Tecnicatura',
+begin
+ select e.legajo_est 'Legajo', nom_est+SPACE(1)+ape_est 'Estudiante', t.tecnicatura 'Tecnicatura',
 avg(calificacion) 'Promedio'
 from ESTUDIANTES e join ESTUDIANTES_MATERIAS em on e.legajo_est = em.legajo_est
 join MATERIAS m on em.id_materia = m.id_materia
@@ -4545,18 +4559,9 @@ and 7 < ALL (select calificacion
 			 from EXAMEN_MATERIAS emt2
 			 where emt.id_examen_materia = emt2.id_examen_materia)
 group by e.legajo_est, nom_est+SPACE(1)+ape_est, t.tecnicatura
-having AVG(calificacion) >= 9	
-
-
-
-create procedure sp_Torneo_Industria
-as
-begin
-select * from vi_Torneo_Industria
+having AVG(calificacion) >= @promedio
 order by 1,2
 end
-
-exec sp_Torneo_Industria
 
 --report 6
 
@@ -4615,15 +4620,15 @@ where t.id_tecnicatura in (6,3,4)
 group by d.ape_doc + space(2) + nom_doc , d.nro_documento ,
 	d.email ,d.telefono ,d.legajo_doc,t.tecnicatura , d.fecha_nac
 having COUNT(C.id_curso)>2
-	
-create procedure sp_Docentes_cursosCargo
+
+create procedure [dbo].[sp_Docentes_cursosCargo]
+@legajo_doc int
 as begin
 select * from vis_Docentes_cursosCargo
+where LEGAJOS=@legajo_doc
 order by 1
 end
 
-exec sp_Docentes_cursosCargo
-----
 
 --reporte8
 
@@ -4688,3 +4693,6 @@ raiserror ('Calificacion incorrecta', 16, 1)
 rollback transaction
 end
 
+select *
+from ESTUDIANTES_MATERIAS
+where legajo_est = 2

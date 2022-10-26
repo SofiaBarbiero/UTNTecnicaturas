@@ -117,4 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Para un torneo de Industria se quiere sacar un listado de los estudiantes promocionados de la Tecnicatura Universitaria en Industrias Alimentarias con un promedio mayor o igual AL NUMERO PASADO POR PARAMETRO pero que ademas todas sus notas sean superior a 7. Por último, que hayan rendido examen en los ultimos dos años y que no tengan trabajo actualmente (para tener disponibilidad de viajar)</value>
+  </data>
 </root>

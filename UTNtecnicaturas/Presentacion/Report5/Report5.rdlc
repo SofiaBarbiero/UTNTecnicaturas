@@ -6,13 +6,16 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>3.63771cm</Width>
+              <Width>2.5cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>5.30458cm</Width>
+              <Width>4.21979cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>4.61667cm</Width>
+              <Width>6.04542cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.5cm</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -73,6 +76,40 @@
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Textbox3</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>CornflowerBlue</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox5">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Tecnicatura</Value>
+                              <Style>
+                                <FontFamily>Montserrat</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox5</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -188,6 +225,36 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
+                    <Textbox Name="Tecnicatura">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Tecnicatura.Value</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Tecnicatura</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
                     <Textbox Name="Promedio">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
@@ -225,6 +292,7 @@
             <TablixMember />
             <TablixMember />
             <TablixMember />
+            <TablixMember />
           </TablixMembers>
         </TablixColumnHierarchy>
         <TablixRowHierarchy>
@@ -238,10 +306,10 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet5</DataSetName>
-        <Top>0.97578cm</Top>
-        <Left>1.0287cm</Left>
+        <Top>1.05516cm</Top>
+        <Left>0.89641cm</Left>
         <Height>1.2cm</Height>
-        <Width>13.55896cm</Width>
+        <Width>15.26521cm</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -249,56 +317,11 @@
         </Style>
       </Tablix>
     </ReportItems>
-    <Height>2in</Height>
+    <Height>1.33333in</Height>
     <Style />
   </Body>
   <Width>6.5in</Width>
   <Page>
-    <PageHeader>
-      <Height>3.20146cm</Height>
-      <PrintOnFirstPage>true</PrintOnFirstPage>
-      <PrintOnLastPage>true</PrintOnLastPage>
-      <ReportItems>
-        <Textbox Name="Textbox9">
-          <CanGrow>true</CanGrow>
-          <KeepTogether>true</KeepTogether>
-          <Paragraphs>
-            <Paragraph>
-              <TextRuns>
-                <TextRun>
-                  <Value>--Para un torneo de Industria se quiere sacar un listado de los estudiantes promocionados
---de la Tecnicatura Universitaria en Industrias Alimentarias con un promedio mayor o igual a 9,
---pero que ademas todas sus notas sean superior a 7.
---Por último, que hayan rendido examen en los ultimos dos años y que no tengan
---trabajo actualmente (para tener disponibilidad de viajar)</Value>
-                  <Style />
-                </TextRun>
-              </TextRuns>
-              <Style />
-            </Paragraph>
-          </Paragraphs>
-          <rd:DefaultName>Textbox9</rd:DefaultName>
-          <Top>0.36724cm</Top>
-          <Left>0.34078cm</Left>
-          <Height>2.55199cm</Height>
-          <Width>16.16922cm</Width>
-          <Style>
-            <Border>
-              <Style>None</Style>
-            </Border>
-            <PaddingLeft>2pt</PaddingLeft>
-            <PaddingRight>2pt</PaddingRight>
-            <PaddingTop>2pt</PaddingTop>
-            <PaddingBottom>2pt</PaddingBottom>
-          </Style>
-        </Textbox>
-      </ReportItems>
-      <Style>
-        <Border>
-          <Style>None</Style>
-        </Border>
-      </Style>
-    </PageHeader>
     <PageHeight>29.7cm</PageHeight>
     <PageWidth>21cm</PageWidth>
     <LeftMargin>2cm</LeftMargin>
@@ -315,7 +338,7 @@
         <DataProvider>System.Data.DataSet</DataProvider>
         <ConnectString>/* Local Connection */</ConnectString>
       </ConnectionProperties>
-      <rd:DataSourceID>a757fae6-fb09-4391-ac7c-686dfb40fe1d</rd:DataSourceID>
+      <rd:DataSourceID>1f5abeed-2335-4185-9966-2379d5faa9d9</rd:DataSourceID>
     </DataSource>
   </DataSources>
   <DataSets>
@@ -344,14 +367,14 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>DataSet5</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\China\Downloads\UTNtecnicaturas-main\UTNtecnicaturas\Presentacion\Report5\DataSet5.xsd</rd:SchemaPath>
-        <rd:TableName>vi_Torneo_Industria</rd:TableName>
+        <rd:SchemaPath>C:\Users\Hernan\Desktop\UTN\Laboratorio II\TPI\UTNtecnicaturas-main\UTNtecnicaturas\Presentacion\Report5\DataSet5.xsd</rd:SchemaPath>
+        <rd:TableName>sp_Torneo_Industria</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
-        <rd:TableAdapterName>vi_Torneo_IndustriaTableAdapter</rd:TableAdapterName>
+        <rd:TableAdapterName>sp_Torneo_IndustriaTableAdapter</rd:TableAdapterName>
       </rd:DataSetInfo>
     </DataSet>
   </DataSets>
   <rd:ReportUnitType>Cm</rd:ReportUnitType>
-  <rd:ReportID>57907b8d-4124-4eae-a4e3-5f9208f49451</rd:ReportID>
+  <rd:ReportID>05d2cbdb-50e2-46ff-a990-356ebe9a81a3</rd:ReportID>
 </Report>

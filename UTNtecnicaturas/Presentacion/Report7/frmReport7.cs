@@ -46,5 +46,15 @@ namespace UTNtecnicaturas.Presentacion.Report7
         {
             this.Close();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtLegajoDoc_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

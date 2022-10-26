@@ -57,6 +57,7 @@
             this.label1.Size = new System.Drawing.Size(128, 16);
             this.label1.TabIndex = 1;
             this.label1.Text = "Legajo Docente:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtLegajoDoc
             // 
@@ -64,10 +65,12 @@
             this.txtLegajoDoc.Name = "txtLegajoDoc";
             this.txtLegajoDoc.Size = new System.Drawing.Size(75, 20);
             this.txtLegajoDoc.TabIndex = 2;
+            this.txtLegajoDoc.TextChanged += new System.EventHandler(this.txtLegajoDoc_TextChanged);
             // 
             // textBox1
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Montserrat", 8.249999F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(42, 102);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
