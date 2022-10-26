@@ -50,7 +50,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Legajo</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Montserrat</FontFamily>
+                                <Color>White</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -62,6 +65,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
+                        <BackgroundColor>CornflowerBlue</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -80,7 +84,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Estudiantes</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Montserrat</FontFamily>
+                                <Color>White</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -92,6 +99,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
+                        <BackgroundColor>CornflowerBlue</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -110,7 +118,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Email</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Montserrat</FontFamily>
+                                <Color>White</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -122,6 +133,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
+                        <BackgroundColor>CornflowerBlue</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -140,7 +152,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Telefono</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Montserrat</FontFamily>
+                                <Color>White</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -152,6 +167,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
+                        <BackgroundColor>CornflowerBlue</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -170,7 +186,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Direccion</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Montserrat</FontFamily>
+                                <Color>White</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -182,6 +201,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
+                        <BackgroundColor>CornflowerBlue</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -200,7 +220,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>DNI</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Montserrat</FontFamily>
+                                <Color>White</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -212,6 +235,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
+                        <BackgroundColor>CornflowerBlue</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -230,7 +254,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Fecha Nacimiento</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Montserrat</FontFamily>
+                                <Color>White</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -242,6 +269,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
+                        <BackgroundColor>CornflowerBlue</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -260,7 +288,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Promedio</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Montserrat</FontFamily>
+                                <Color>White</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -272,6 +303,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
+                        <BackgroundColor>CornflowerBlue</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -290,7 +322,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Estado Laboral</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Montserrat</FontFamily>
+                                <Color>White</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -302,6 +337,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
+                        <BackgroundColor>CornflowerBlue</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -320,7 +356,10 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Estado Academico</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Montserrat</FontFamily>
+                                <Color>White</Color>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -332,6 +371,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
+                        <BackgroundColor>CornflowerBlue</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -685,54 +725,13 @@
         </Style>
       </Tablix>
     </ReportItems>
-    <Height>2.05452in</Height>
+    <Height>0.99202in</Height>
     <Style />
   </Body>
-  <Width>14.09127in</Width>
+  <Width>12.50794in</Width>
   <Page>
-    <PageHeader>
-      <Height>2.54cm</Height>
-      <PrintOnFirstPage>true</PrintOnFirstPage>
-      <PrintOnLastPage>true</PrintOnLastPage>
-      <ReportItems>
-        <Textbox Name="Textbox21">
-          <CanGrow>true</CanGrow>
-          <KeepTogether>true</KeepTogether>
-          <Paragraphs>
-            <Paragraph>
-              <TextRuns>
-                <TextRun>
-                  <Value>Una empresa busca programadores para una pasantia laboral: requieren alumnos con las sig.caracteristicas cursando a partir del  3er cuatrimestre con un promedio general superior al  promedio del año pasado que esten activos que esten trabajando actualmente (si estan desempleados que esten en busca de trabajo).-
-Necesita saber el legajo, nombre completo, e-mail, nro de telefono,fecha de nacimiento direccion completa y dni</Value>
-                  <Style />
-                </TextRun>
-              </TextRuns>
-              <Style />
-            </Paragraph>
-          </Paragraphs>
-          <rd:DefaultName>Textbox21</rd:DefaultName>
-          <Left>0.47625cm</Left>
-          <Height>2.36361cm</Height>
-          <Width>34.66891cm</Width>
-          <Style>
-            <Border>
-              <Style>None</Style>
-            </Border>
-            <PaddingLeft>2pt</PaddingLeft>
-            <PaddingRight>2pt</PaddingRight>
-            <PaddingTop>2pt</PaddingTop>
-            <PaddingBottom>2pt</PaddingBottom>
-          </Style>
-        </Textbox>
-      </ReportItems>
-      <Style>
-        <Border>
-          <Style>None</Style>
-        </Border>
-      </Style>
-    </PageHeader>
     <PageFooter>
-      <Height>2.54cm</Height>
+      <Height>0.02646cm</Height>
       <PrintOnFirstPage>true</PrintOnFirstPage>
       <PrintOnLastPage>true</PrintOnLastPage>
       <Style>

@@ -117,4 +117,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Una empresa busca programadores para una pasantia laboral: requieren alumnos con las sig.caracteristicas cursando a partir del  3er cuatrimestre con un promedio general superior al  promedio del año pasado que esten activos que esten trabajando actualmente (si estan desempleados que esten en busca de trabajo).-
+Necesita saber el legajo, nombre completo, e-mail, nro de telefono,fecha de nacimiento direccion completa y dni</value>
+  </data>
 </root>

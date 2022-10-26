@@ -117,4 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Para saber cuales son los estudiantes extranjeros que estuvieron más activos en 2021, la UTN necesita generar un reporte con los estudiantes que rindieron más de 10 veces el año pasado. En el reporte incluir su promedio de calificaciones, estado academico y estado laboral</value>
+  </data>
 </root>

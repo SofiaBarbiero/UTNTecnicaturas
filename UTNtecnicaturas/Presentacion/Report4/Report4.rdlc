@@ -510,7 +510,7 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet4</DataSetName>
-        <Top>1.50495cm</Top>
+        <Top>0.68474cm</Top>
         <Left>0.81703cm</Left>
         <Height>1.2cm</Height>
         <Width>17.5cm</Width>
@@ -521,54 +521,11 @@
         </Style>
       </Tablix>
     </ReportItems>
-    <Height>2in</Height>
+    <Height>1.04167in</Height>
     <Style />
   </Body>
   <Width>7.55518in</Width>
   <Page>
-    <PageHeader>
-      <Height>2.54cm</Height>
-      <PrintOnFirstPage>true</PrintOnFirstPage>
-      <PrintOnLastPage>true</PrintOnLastPage>
-      <ReportItems>
-        <Textbox Name="Textbox15">
-          <CanGrow>true</CanGrow>
-          <KeepTogether>true</KeepTogether>
-          <Paragraphs>
-            <Paragraph>
-              <TextRuns>
-                <TextRun>
-                  <Value>--Para saber cuales son los estudiantes extranjeros que estuvieron más activos en 2021,
---la UTN necesita generar un reporte con los estudiantes que rindieron más de 10 veces el año pasado.
---En el reporte incluir su promedio de calificaciones, estado academico y estado laboral</Value>
-                  <Style />
-                </TextRun>
-              </TextRuns>
-              <Style />
-            </Paragraph>
-          </Paragraphs>
-          <rd:DefaultName>Textbox15</rd:DefaultName>
-          <Top>0.28787cm</Top>
-          <Left>0.49953cm</Left>
-          <Height>1.71125cm</Height>
-          <Width>18.03104cm</Width>
-          <Style>
-            <Border>
-              <Style>None</Style>
-            </Border>
-            <PaddingLeft>2pt</PaddingLeft>
-            <PaddingRight>2pt</PaddingRight>
-            <PaddingTop>2pt</PaddingTop>
-            <PaddingBottom>2pt</PaddingBottom>
-          </Style>
-        </Textbox>
-      </ReportItems>
-      <Style>
-        <Border>
-          <Style>None</Style>
-        </Border>
-      </Style>
-    </PageHeader>
     <PageHeight>29.7cm</PageHeight>
     <PageWidth>21cm</PageWidth>
     <LeftMargin>2cm</LeftMargin>

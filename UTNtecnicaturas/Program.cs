@@ -25,9 +25,8 @@ namespace UTNtecnicaturas
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new FrmAdministrativo());
-            //Application.Run(new frmLogin());
-            Application.Run(new frmReport5());
+            Application.Run(new frmLogin());
+            
         }
     }
 }
